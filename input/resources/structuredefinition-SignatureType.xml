@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
+  <id value="SignatureType"/>
+  <url value="http://fhir.org/guides/fhir/base-clinical/StructureDefinition/SignatureType"/>
+  <name value="SignatureType"/>
+  <title value="SignatureType"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <publisher value="HL7 International / FHIR Infrastructure"/>
+  <contact>
+    <telecom>
+      <!-- Or whatever URL and/or email address(es) are appropriate -->
+      <system value="url"/>
+      <value value="http://hl7.org/Special/committees/fhir-i"/>
+    </telecom>
+  </contact>
+  <description value="SignatureType - Supports media and digital signatures"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>  
+  <fhirVersion value="5.0.0"/>
+  <kind value="complex-type"/>
+  <abstract value="false"/>
+  <type value="SignatureType"/>
+  <baseDefinition value="http://fhir.org/guides/fhir/base-clinical/StructureDefinition/DataValueType"/>
+  <derivation value="specialization"/>
+  <differential>
+   <element id="SignatureType">
+      <path value="SignatureType"/> 
+      <short value="SignatureType (Media and digital signatures)"/> 
+      <definition value="SignatureType - Supports media and digital signatures"/> 
+      <min value="0"/> 
+      <max value="*"/> 
+    </element> 
+  </differential>
+</StructureDefinition>

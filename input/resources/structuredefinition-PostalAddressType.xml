@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
+  <id value="PostalAddressType"/>
+  <url value="http://fhir.org/guides/fhir/base-clinical/StructureDefinition/PostalAddressType"/>
+  <name value="PostalAddressType"/>
+  <title value="PostalAddressType"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <publisher value="HL7 International / FHIR Infrastructure"/>
+  <contact>
+    <telecom>
+      <!-- Or whatever URL and/or email address(es) are appropriate -->
+      <system value="url"/>
+      <value value="http://hl7.org/Special/committees/fhir-i"/>
+    </telecom>
+  </contact>
+  <description value="PostalAddressType - A postal Address"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>  
+  <fhirVersion value="5.0.0"/>
+  <kind value="complex-type"/>
+  <abstract value="false"/>
+  <type value="PostalAddressType"/>
+  <baseDefinition value="http://fhir.org/guides/fhir/base-clinical/StructureDefinition/DataValueType"/>
+  <derivation value="specialization"/>
+  <differential>
+   <element id="PostalAddressType">
+      <path value="PostalAddressType"/> 
+      <short value="PostalAddressType (A postal Address)"/> 
+      <definition value="PostalAddressType - A postal Address"/> 
+      <min value="0"/> 
+      <max value="*"/> 
+    </element> 
+  </differential>
+</StructureDefinition>

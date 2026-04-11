@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="assets/fhir.css" type="text/css"?><svg
+   width="782"
+   id="n1"
+   version="1.1"
+   height="358"
+   sodipodi:docname="datatypes.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.35"
+     inkscape:cx="392.22222"
+     inkscape:cy="178.51852"
+     inkscape:window-width="1472"
+     inkscape:window-height="819"
+     inkscape:window-x="94"
+     inkscape:window-y="201"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="n1" />
+  <path
+     d="M226.08761264936098 82.16036840000001 L87.12000000000002 33.311796428702074"
+     style="stroke:navy;stroke-width:1;fill:none"
+     id="DataValueType-BooleanType" />
+  <polygon
+     transform="rotate(-160.6328907689646 226.08761264936098 82.16036840000001)"
+     style="fill:white;stroke:navy;stroke-width:1"
+     id="n90"
+     points="226.08761264936098,82.16036840000001 234.08761264936098,88.16036840000001 234.08761264936098,76.16036840000001 226.08761264936098,82.16036840000001" />
+  <path
+     d="M252.4621170450434 82.1603684 L188.77857295495653 36.00000010000001"
+     style="stroke:navy;stroke-width:1;fill:none"
+     id="DataValueType-NumberType" />
+  <polygon
+     transform="rotate(-144.06390444207972 252.4621170450434 82.1603684)"
+     style="fill:white;stroke:navy;stroke-width:1"
+     id="n91"
+     points="252.4621170450434,82.1603684 260.46211704504344,88.1603684 260.46211704504344,76.1603684 252.4621170450434,82.1603684" />
+  <path
+     d="M302.55984524526116 82.16036840000004 L365.17432475473885 37.55019579999998"
+     style="stroke:navy;stroke-width:1;fill:none"
+     id="DataValueType-StringType" />
+  <polygon
+     transform="rotate(-35.46826735623132 302.55984524526116 82.16036840000004)"
+     style="fill:white;stroke:navy;stroke-width:1"
+     id="n92"
+     points="302.55984524526116,82.16036840000004 310.55984524526116,88.16036840000004 310.55984524526116,76.16036840000004 302.55984524526116,82.16036840000004" />
+  <path
+     d="M277.5359448673073 82.16036840000015 L278.1429851326926 36.77509790000113"
+     style="stroke:navy;stroke-width:1;fill:none"
+     id="DataValueType-DateTimeType" />
+  <polygon
+     transform="rotate(-89.23369915023922 277.5359448673073 82.16036840000015)"
+     style="fill:white;stroke:navy;stroke-width:1"
+     id="n93"
+     points="277.5359448673073,82.16036840000015 285.5359448673073,88.16036840000015 285.5359448673073,76.16036840000015 277.5359448673073,82.16036840000015" />
+  <path
+     d="M198.09519 108.34329210084428 L88.17542000000002 119.70017456453562"
+     style="stroke:navy;stroke-width:1;fill:none"
+     id="DataValueType-ConceptType" />
+  <polygon
+     transform="rotate(174.10114535713174 198.09519 108.34329210084428)"
+     style="fill:white;stroke:navy;stroke-width:1"
+     id="n94"
+     points="198.09519,108.34329210084428 206.09519,114.34329210084428 206.09519,102.34329210084428 198.09519,108.34329210084428" />
+  <path
+     d="M198.09519 90.36706206106433 L77.14684000000003 75.41145293557427"
+     style="stroke:navy;stroke-width:1;fill:none"
+     id="DataValueType-CodeType" />
+  <polygon
+     transform="rotate(-172.95099430067484 198.09519 90.36706206106433)"
+     style="fill:white;stroke:navy;stroke-width:1"
+     id="n95"
+     points="198.09519,90.36706206106433 206.09519,96.36706206106433 206.09519,84.36706206106433 198.09519,90.36706206106433" />
+  <path
+     d="M356.49519 89.1349457559894 L461.18320000000006 74.56134025080745"
+     style="stroke:navy;stroke-width:1;fill:none"
+     id="DataValueType-AttachmentType" />
+  <polygon
+     transform="rotate(-7.92520539520722 356.49519 89.1349457559894)"
+     style="fill:white;stroke:navy;stroke-width:1"
+     id="n96"
+     points="356.49519,89.1349457559894 364.49519,95.1349457559894 364.49519,83.1349457559894 356.49519,89.1349457559894" />
+  <path
+     d="M327.77751695120196 82.16036840000001 L480.0 27.883855006967366"
+     style="stroke:navy;stroke-width:1;fill:none"
+     id="DataValueType-UrlType" />
+  <polygon
+     transform="rotate(-19.624222732882494 327.77751695120196 82.16036840000001)"
+     style="fill:white;stroke:navy;stroke-width:1"
+     id="n97"
+     points="327.77751695120196,82.16036840000001 335.77751695120196,88.16036840000001 335.77751695120196,76.16036840000001 327.77751695120196,82.16036840000001" />
+  <path
+     d="M356.49519 107.13530921486114 L450.826605 115.44283492959725"
+     style="stroke:navy;stroke-width:1;fill:none"
+     id="DataValueType-IdentifierType" />
+  <polygon
+     transform="rotate(5.032907582549895 356.49519 107.13530921486114)"
+     style="fill:white;stroke:navy;stroke-width:1"
+     id="n98"
+     points="356.49519,107.13530921486114 364.49519,113.13530921486114 364.49519,101.13530921486114 356.49519,107.13530921486114" />
+  <path
+     d="M225.53012114523975 118.1603684 L87.23130040000001 166.25030295410798"
+     style="stroke:navy;stroke-width:1;fill:none"
+     id="DataValueType-PeriodType" />
+  <polygon
+     transform="rotate(160.82616736149706 225.53012114523975 118.1603684)"
+     style="fill:white;stroke:navy;stroke-width:1"
+     id="n99"
+     points="225.53012114523975,118.1603684 233.53012114523975,124.1603684 233.53012114523975,112.1603684 225.53012114523975,118.1603684" />
+  <path
+     d="M274.61074228443545 118.16036839999992 L265.8733577155646 176.74706439999977"
+     style="stroke:navy;stroke-width:1;fill:none"
+     id="DataValueType-RangeType" />
+  <polygon
+     transform="rotate(98.48234436534378 274.61074228443545 118.16036839999992)"
+     style="fill:white;stroke:navy;stroke-width:1"
+     id="n100"
+     points="274.61074228443545,118.16036839999992 282.61074228443545,124.16036839999992 282.61074228443545,112.16036839999992 274.61074228443545,118.16036839999992" />
+  <path
+     d="M328.8569173857932 82.16036840000001 L458.69298000000003 36.83510011390197"
+     style="stroke:navy;stroke-width:1;fill:none"
+     id="DataValueType-TextType" />
+  <polygon
+     transform="rotate(-19.243897485453232 328.8569173857932 82.16036840000001)"
+     style="fill:white;stroke:navy;stroke-width:1"
+     id="n101"
+     points="328.8569173857932,82.16036840000001 336.8569173857932,88.16036840000001 336.8569173857932,76.16036840000001 328.8569173857932,82.16036840000001" />
+  <path
+     d="M252.12644880407535 118.16036839999998 L178.8771411959248 170.54628339999996"
+     style="stroke:navy;stroke-width:1;fill:none"
+     id="DataValueType-QuantityType" />
+  <polygon
+     transform="rotate(144.4286797603517 252.12644880407535 118.16036839999998)"
+     style="fill:white;stroke:navy;stroke-width:1"
+     id="n102"
+     points="252.12644880407535,118.16036839999998 260.1264488040754,124.16036839999998 260.1264488040754,112.16036839999998 252.12644880407535,118.16036839999998" />
+  <path
+     d="M336.40534409161 118.1603684 L449.886583 152.71724499323744"
+     style="stroke:navy;stroke-width:1;fill:none"
+     id="DataValueType-ReferenceType" />
+  <polygon
+     transform="rotate(16.93634236836828 336.40534409161 118.1603684)"
+     style="fill:white;stroke:navy;stroke-width:1"
+     id="n103"
+     points="336.40534409161,118.1603684 344.40534409161,124.1603684 344.40534409161,112.1603684 336.40534409161,118.1603684" />
+  <path
+     d="M297.1101404131322 118.16036840000001 L356.48465958686785 172.09647839999994"
+     style="stroke:navy;stroke-width:1;fill:none"
+     id="DataValueType-TimingRulesType" />
+  <polygon
+     transform="rotate(42.25216458288528 297.1101404131322 118.16036840000001)"
+     style="fill:white;stroke:navy;stroke-width:1"
+     id="n104"
+     points="297.1101404131322,118.16036840000001 305.1101404131322,124.16036840000001 305.1101404131322,112.16036840000001 297.1101404131322,118.16036840000001" />
+  <path
+     d="M130.9743655930596 206.54628340000002 L92.23709540694041 237.21707639999997"
+     style="stroke:navy;stroke-width:1;fill:none"
+     id="QuantityType-DurationType" />
+  <polygon
+     transform="rotate(141.62907110671867 130.9743655930596 206.54628340000002)"
+     style="fill:white;stroke:navy;stroke-width:1"
+     id="n105"
+     points="130.9743655930596,206.54628340000002 138.9743655930596,212.54628340000002 138.9743655930596,200.54628340000002 130.9743655930596,206.54628340000002" />
+  <path
+     d="M170.03683768681083 206.54628340000002 L192.93756951318912 231.7913914"
+     style="stroke:navy;stroke-width:1;fill:none"
+     id="QuantityType-OrdinalType" />
+  <polygon
+     transform="rotate(47.78771437810839 170.03683768681083 206.54628340000002)"
+     style="fill:white;stroke:navy;stroke-width:1"
+     id="n106"
+     points="170.03683768681083,206.54628340000002 178.03683768681083,212.54628340000002 178.03683768681083,200.54628340000002 170.03683768681083,206.54628340000002" />
+  <path
+     d="M283.44103517914056 118.16036840000015 L346.3215418208595 302.3252939"
+     style="stroke:navy;stroke-width:1;fill:none"
+     id="DataValueType-PersonNameType" />
+  <polygon
+     transform="rotate(71.14825601177552 283.44103517914056 118.16036840000015)"
+     style="fill:white;stroke:navy;stroke-width:1"
+     id="n107"
+     points="283.44103517914056,118.16036840000015 291.44103517914056,124.16036840000015 291.44103517914056,112.16036840000015 283.44103517914056,118.16036840000015" />
+  <path
+     d="M296.4906142009756 118.16036839999998 L492.0598107990243 301.5501962"
+     style="stroke:navy;stroke-width:1;fill:none"
+     id="DataValueType-ContactDetailsType" />
+  <polygon
+     transform="rotate(43.15920385119509 296.4906142009756 118.16036839999998)"
+     style="fill:white;stroke:navy;stroke-width:1"
+     id="n108"
+     points="296.4906142009756,118.16036839999998 304.4906142009756,124.16036839999998 304.4906142009756,112.16036839999998 296.4906142009756,118.16036839999998" />
+  <path
+     d="M260.72244760664904 118.16036839999998 L91.14894499335094 302.33767439999997"
+     style="stroke:navy;stroke-width:1;fill:none"
+     id="DataValueType-PostalAddressType" />
+  <polygon
+     transform="rotate(132.63601545512853 260.72244760664904 118.16036839999998)"
+     style="fill:white;stroke:navy;stroke-width:1"
+     id="n109"
+     points="260.72244760664904,118.16036839999998 268.72244760664904,124.16036839999998 268.72244760664904,112.16036839999998 260.72244760664904,118.16036839999998" />
+  <path
+     d="M272.17299643939555 118.16036840000004 L219.98290706060448 301.5625764"
+     style="stroke:navy;stroke-width:1;fill:none"
+     id="DataValueType-SignatureType" />
+  <polygon
+     transform="rotate(105.88456734548414 272.17299643939555 118.16036840000004)"
+     style="fill:white;stroke:navy;stroke-width:1"
+     id="n110"
+     points="272.17299643939555,118.16036840000004 280.17299643939555,124.16036840000004 280.17299643939555,112.16036840000004 272.17299643939555,118.16036840000004" />
+  <defs
+     id="defs1">
+    <filter
+       x="-0.095598848"
+       width="1.2453103"
+       y="-0.14722222"
+       id="shadowdatatypes"
+       height="1.3777778">
+      <feOffset
+         result="offOut"
+         dx="3"
+         in="SourceGraphic"
+         dy="3"
+         id="feOffset1" />
+      <feColorMatrix
+         result="matrixOut"
+         in="offOut"
+         values="0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0"
+         type="matrix"
+         id="feColorMatrix1" />
+      <feGaussianBlur
+         result="blurOut"
+         stdDeviation="2"
+         in="matrixOut"
+         id="feGaussianBlur1" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="blurOut"
+         id="feBlend1" />
+    </filter>
+  </defs>
+  <g
+     id="n2">
+    <rect
+       filter="url(#shadowdatatypes)"
+       rx="4"
+       ry="4"
+       x="198.09519"
+       width="158.4"
+       y="82.16036840000001"
+       style="fill:#ffffff;stroke:black;stroke-width:1"
+       id="DataValueType"
+       height="36.0" />
+    <line
+       y1="110.16036840000001"
+       x1="198.09519"
+       y2="110.16036840000001"
+       x2="356.49519"
+       style="stroke:dimgrey;stroke-width:1"
+       id="n3" />
+    <text
+       text-anchor="middle"
+       x="277.29519"
+       y="102.16036840000001"
+       id="n4"
+       fill="black"
+       class="diagram-class-title  diagram-class-resource"><a
+   xlink:href="StructureDefinition-DataValueType.html"
+   id="a1">DataValueType</a>
+ (      <a
+   style="font-style: italic"
+   id="n5"
+   class="diagram-class-reference"
+   xlink:href="http://hl7.org/fhir/R5/types.html#Base">Base</a>
+)
+    </text>
+  </g>
+  <g
+     id="n6"
+     transform="translate(82.962963,0.74074076)">
+    <rect
+       filter="url(#shadowdatatypes)"
+       rx="4"
+       ry="4"
+       x="0"
+       width="87.120003"
+       y="0"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1"
+       id="BooleanType"
+       height="36" />
+    <line
+       y1="28"
+       x1="0"
+       y2="28"
+       x2="87.120003"
+       style="stroke:#696969;stroke-width:1"
+       id="n7" />
+    <text
+       text-anchor="middle"
+       x="43.560001"
+       y="20"
+       id="n8"
+       fill="#000000"
+       class="diagram-class-title  diagram-class-resource"><a
+         id="n9"
+         xlink:href="StructureDefinition-BooleanType.html">BooleanType</a></text>
+  </g>
+  <g
+     id="n10"
+     transform="translate(62.222223,0.74074076)">
+    <rect
+       filter="url(#shadowdatatypes)"
+       rx="4"
+       ry="4"
+       x="124.3455"
+       width="79.199997"
+       y="1e-07"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1"
+       id="NumberType"
+       height="36" />
+    <line
+       y1="28"
+       x1="124.3455"
+       y2="28"
+       x2="203.5455"
+       style="stroke:#696969;stroke-width:1"
+       id="n11" />
+    <text
+       text-anchor="middle"
+       x="163.9455"
+       y="20"
+       id="n12"
+       fill="#000000"
+       class="diagram-class-title  diagram-class-resource"><a
+         id="n13"
+         xlink:href="StructureDefinition-NumberType.html">NumberType</a></text>
+  </g>
+  <g
+     id="n14"
+     transform="translate(45.185186,0.74074076)">
+    <rect
+       filter="url(#shadowdatatypes)"
+       rx="4"
+       ry="4"
+       x="350.83899"
+       width="79.199997"
+       y="1.5501958"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1"
+       id="StringType"
+       height="36" />
+    <line
+       y1="29.550196"
+       x1="350.83899"
+       y2="29.550196"
+       x2="430.03897"
+       style="stroke:#696969;stroke-width:1"
+       id="n15" />
+    <text
+       text-anchor="middle"
+       x="390.43896"
+       y="21.550196"
+       id="n16"
+       fill="#000000"
+       class="diagram-class-title  diagram-class-resource"><a
+         id="n17"
+         xlink:href="StructureDefinition-StringType.html">StringType</a></text>
+  </g>
+  <g
+     id="n18"
+     transform="translate(54.074075)">
+    <rect
+       filter="url(#shadowdatatypes)"
+       rx="4"
+       ry="4"
+       x="230.86374"
+       width="95.040001"
+       y="0.77509791"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1"
+       id="DateTimeType"
+       height="36" />
+    <line
+       y1="28.775099"
+       x1="230.86374"
+       y2="28.775099"
+       x2="325.90375"
+       style="stroke:#696969;stroke-width:1"
+       id="n19" />
+    <text
+       text-anchor="middle"
+       x="278.38373"
+       y="20.775099"
+       id="n20"
+       fill="#000000"
+       class="diagram-class-title  diagram-class-resource"><a
+         id="n21"
+         xlink:href="StructureDefinition-DateTimeType.html">DateTimeType</a></text>
+  </g>
+  <g
+     id="n22">
+    <rect
+       filter="url(#shadowdatatypes)"
+       rx="4"
+       ry="4"
+       x="1.055419999999998"
+       width="87.12000000000002"
+       y="106.20078260000001"
+       style="fill:#ffffff;stroke:black;stroke-width:1"
+       id="ConceptType"
+       height="36.0" />
+    <line
+       y1="134.20078260000003"
+       x1="1.055419999999998"
+       y2="134.20078260000003"
+       x2="88.17542000000002"
+       style="stroke:dimgrey;stroke-width:1"
+       id="n23" />
+    <text
+       text-anchor="middle"
+       x="44.61542000000001"
+       y="126.20078260000001"
+       id="n24"
+       fill="black"
+       class="diagram-class-title  diagram-class-resource"><a
+         id="n25"
+         xlink:href="StructureDefinition-ConceptType.html">ConceptType</a></text>
+  </g>
+  <g
+     id="n26">
+    <rect
+       filter="url(#shadowdatatypes)"
+       rx="4"
+       ry="4"
+       x="13.786840000000012"
+       width="63.36000000000001"
+       y="53.494130399999996"
+       style="fill:#ffffff;stroke:black;stroke-width:1"
+       id="CodeType"
+       height="36.0" />
+    <line
+       y1="81.49413039999999"
+       x1="13.786840000000012"
+       y2="81.49413039999999"
+       x2="77.14684000000003"
+       style="stroke:dimgrey;stroke-width:1"
+       id="n27" />
+    <text
+       text-anchor="middle"
+       x="45.46684000000002"
+       y="73.49413039999999"
+       id="n28"
+       fill="black"
+       class="diagram-class-title  diagram-class-resource"><a
+         id="n29"
+         xlink:href="StructureDefinition-CodeType.html">CodeType</a></text>
+  </g>
+  <g
+     id="n30">
+    <rect
+       filter="url(#shadowdatatypes)"
+       rx="4"
+       ry="4"
+       x="461.18320000000006"
+       width="110.88000000000002"
+       y="48.8435444"
+       style="fill:#ffffff;stroke:black;stroke-width:1"
+       id="AttachmentType"
+       height="36.0" />
+    <line
+       y1="76.8435444"
+       x1="461.18320000000006"
+       y2="76.8435444"
+       x2="572.0632"
+       style="stroke:dimgrey;stroke-width:1"
+       id="n31" />
+    <text
+       text-anchor="middle"
+       x="516.6232000000001"
+       y="68.8435444"
+       id="n32"
+       fill="black"
+       class="diagram-class-title  diagram-class-resource"><a
+         id="n33"
+         xlink:href="StructureDefinition-AttachmentType.html">AttachmentType</a></text>
+  </g>
+  <g
+     id="n34"
+     transform="translate(-462.22222,3.7036993)">
+    <rect
+       filter="url(#shadowdatatypes)"
+       rx="4"
+       ry="4"
+       x="480"
+       width="55.439999"
+       y="0"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1"
+       id="UrlType"
+       height="36" />
+    <line
+       y1="28"
+       x1="480"
+       y2="28"
+       x2="535.44"
+       style="stroke:#696969;stroke-width:1"
+       id="n35" />
+    <text
+       text-anchor="middle"
+       x="507.72"
+       y="20"
+       id="n36"
+       fill="#000000"
+       class="diagram-class-title  diagram-class-resource"><a
+         id="n37"
+         xlink:href="StructureDefinition-UrlType.html">UrlType</a></text>
+  </g>
+  <g
+     id="n38">
+    <rect
+       filter="url(#shadowdatatypes)"
+       rx="4"
+       ry="4"
+       x="450.826605"
+       width="110.88000000000002"
+       y="102.3252935"
+       style="fill:#ffffff;stroke:black;stroke-width:1"
+       id="IdentifierType"
+       height="36.0" />
+    <line
+       y1="130.3252935"
+       x1="450.826605"
+       y2="130.3252935"
+       x2="561.706605"
+       style="stroke:dimgrey;stroke-width:1"
+       id="n39" />
+    <text
+       text-anchor="middle"
+       x="506.26660499999997"
+       y="122.3252935"
+       id="n40"
+       fill="black"
+       class="diagram-class-title  diagram-class-resource"><a
+         id="n41"
+         xlink:href="StructureDefinition-IdentifierType.html">IdentifierType</a></text>
+  </g>
+  <g
+     id="n42">
+    <rect
+       filter="url(#shadowdatatypes)"
+       rx="4"
+       ry="4"
+       x="8.0313004"
+       width="79.2"
+       y="162.0202064"
+       style="fill:#ffffff;stroke:black;stroke-width:1"
+       id="PeriodType"
+       height="36.0" />
+    <line
+       y1="190.0202064"
+       x1="8.0313004"
+       y2="190.0202064"
+       x2="87.23130040000001"
+       style="stroke:dimgrey;stroke-width:1"
+       id="n43" />
+    <text
+       text-anchor="middle"
+       x="47.6313004"
+       y="182.0202064"
+       id="n44"
+       fill="black"
+       class="diagram-class-title  diagram-class-resource"><a
+         id="n45"
+         xlink:href="StructureDefinition-PeriodType.html">PeriodType</a></text>
+  </g>
+  <g
+     id="n46">
+    <rect
+       filter="url(#shadowdatatypes)"
+       rx="4"
+       ry="4"
+       x="227.54891"
+       width="71.28"
+       y="176.7470644"
+       style="fill:#ffffff;stroke:black;stroke-width:1"
+       id="RangeType"
+       height="36.0" />
+    <line
+       y1="204.7470644"
+       x1="227.54891"
+       y2="204.7470644"
+       x2="298.82891"
+       style="stroke:dimgrey;stroke-width:1"
+       id="n47" />
+    <text
+       text-anchor="middle"
+       x="263.18891"
+       y="196.7470644"
+       id="n48"
+       fill="black"
+       class="diagram-class-title  diagram-class-resource"><a
+         id="n49"
+         xlink:href="StructureDefinition-RangeType.html">RangeType</a></text>
+  </g>
+  <g
+     id="n50"
+     transform="translate(33.333334,-1.4814844)">
+    <rect
+       filter="url(#shadowdatatypes)"
+       rx="4"
+       ry="4"
+       x="458.69299"
+       width="63.360001"
+       y="7.7757344"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1"
+       id="TextType"
+       height="36" />
+    <line
+       y1="35.775734"
+       x1="458.69299"
+       y2="35.775734"
+       x2="522.05298"
+       style="stroke:#696969;stroke-width:1"
+       id="n51" />
+    <text
+       text-anchor="middle"
+       x="490.37299"
+       y="27.775734"
+       id="n52"
+       fill="#000000"
+       class="diagram-class-title  diagram-class-resource"><a
+         id="n53"
+         xlink:href="StructureDefinition-TextType.html">TextType</a></text>
+  </g>
+  <g
+     id="n54">
+    <rect
+       filter="url(#shadowdatatypes)"
+       rx="4"
+       ry="4"
+       x="106.1884"
+       width="95.04"
+       y="170.5462834"
+       style="fill:#ffffff;stroke:black;stroke-width:1"
+       id="QuantityType"
+       height="36.0" />
+    <line
+       y1="198.5462834"
+       x1="106.1884"
+       y2="198.5462834"
+       x2="201.22840000000002"
+       style="stroke:dimgrey;stroke-width:1"
+       id="n55" />
+    <text
+       text-anchor="middle"
+       x="153.7084"
+       y="190.5462834"
+       id="n56"
+       fill="black"
+       class="diagram-class-title  diagram-class-resource"><a
+         id="n57"
+         xlink:href="StructureDefinition-QuantityType.html">QuantityType</a></text>
+  </g>
+  <g
+     id="n58">
+    <rect
+       filter="url(#shadowdatatypes)"
+       rx="4"
+       ry="4"
+       x="449.886583"
+       width="102.96000000000001"
+       y="150.39373940000002"
+       style="fill:#ffffff;stroke:black;stroke-width:1"
+       id="ReferenceType"
+       height="36.0" />
+    <line
+       y1="178.39373940000002"
+       x1="449.886583"
+       y2="178.39373940000002"
+       x2="552.846583"
+       style="stroke:dimgrey;stroke-width:1"
+       id="n59" />
+    <text
+       text-anchor="middle"
+       x="501.366583"
+       y="170.39373940000002"
+       id="n60"
+       fill="black"
+       class="diagram-class-title  diagram-class-resource"><a
+         id="n61"
+         xlink:href="StructureDefinition-ReferenceType.html">ReferenceType</a></text>
+  </g>
+  <g
+     id="n62">
+    <rect
+       filter="url(#shadowdatatypes)"
+       rx="4"
+       ry="4"
+       x="316.89961000000005"
+       width="118.8"
+       y="172.0964784"
+       style="fill:#ffffff;stroke:black;stroke-width:1"
+       id="TimingRulesType"
+       height="36.0" />
+    <line
+       y1="200.0964784"
+       x1="316.89961000000005"
+       y2="200.0964784"
+       x2="435.69961000000006"
+       style="stroke:dimgrey;stroke-width:1"
+       id="n63" />
+    <text
+       text-anchor="middle"
+       x="376.29961000000003"
+       y="192.0964784"
+       id="n64"
+       fill="black"
+       class="diagram-class-title  diagram-class-resource"><a
+         id="n65"
+         xlink:href="StructureDefinition-TimingRulesType.html">TimingRulesType</a></text>
+  </g>
+  <g
+     id="n66">
+    <rect
+       filter="url(#shadowdatatypes)"
+       rx="4"
+       ry="4"
+       x="21.983061"
+       width="95.04"
+       y="237.2170764"
+       style="fill:#ffffff;stroke:black;stroke-width:1"
+       id="DurationType"
+       height="36.0" />
+    <line
+       y1="265.2170764"
+       x1="21.983061"
+       y2="265.2170764"
+       x2="117.02306100000001"
+       style="stroke:dimgrey;stroke-width:1"
+       id="n67" />
+    <text
+       text-anchor="middle"
+       x="69.503061"
+       y="257.2170764"
+       id="n68"
+       fill="black"
+       class="diagram-class-title  diagram-class-resource"><a
+         id="n69"
+         xlink:href="StructureDefinition-DurationType.html">DurationType</a></text>
+  </g>
+  <g
+     id="n70">
+    <rect
+       filter="url(#shadowdatatypes)"
+       rx="4"
+       ry="4"
+       x="165.7060072"
+       width="87.12000000000002"
+       y="231.7913914"
+       style="fill:#ffffff;stroke:black;stroke-width:1"
+       id="OrdinalType"
+       height="36.0" />
+    <line
+       y1="259.7913914"
+       x1="165.7060072"
+       y2="259.7913914"
+       x2="252.8260072"
+       style="stroke:dimgrey;stroke-width:1"
+       id="n71" />
+    <text
+       text-anchor="middle"
+       x="209.2660072"
+       y="251.7913914"
+       id="n72"
+       fill="black"
+       class="diagram-class-title  diagram-class-resource"><a
+         id="n73"
+         xlink:href="StructureDefinition-OrdinalType.html">OrdinalType</a></text>
+  </g>
+  <g
+     id="n74">
+    <rect
+       filter="url(#shadowdatatypes)"
+       rx="4"
+       ry="4"
+       x="297.027387"
+       width="110.88000000000002"
+       y="302.3252939"
+       style="fill:#ffffff;stroke:black;stroke-width:1"
+       id="PersonNameType"
+       height="36.0" />
+    <line
+       y1="330.3252939"
+       x1="297.027387"
+       y2="330.3252939"
+       x2="407.90738699999997"
+       style="stroke:dimgrey;stroke-width:1"
+       id="n75" />
+    <text
+       text-anchor="middle"
+       x="352.467387"
+       y="322.3252939"
+       id="n76"
+       fill="black"
+       class="diagram-class-title  diagram-class-resource"><a
+         id="n77"
+         xlink:href="StructureDefinition-PersonNameType.html">PersonNameType</a></text>
+  </g>
+  <g
+     id="n78">
+    <rect
+       filter="url(#shadowdatatypes)"
+       rx="4"
+       ry="4"
+       x="439.975235"
+       width="142.56"
+       y="301.5501962"
+       style="fill:#ffffff;stroke:black;stroke-width:1"
+       id="ContactDetailsType"
+       height="36.0" />
+    <line
+       y1="329.5501962"
+       x1="439.975235"
+       y2="329.5501962"
+       x2="582.5352350000001"
+       style="stroke:dimgrey;stroke-width:1"
+       id="n79" />
+    <text
+       text-anchor="middle"
+       x="511.25523499999997"
+       y="321.5501962"
+       id="n80"
+       fill="black"
+       class="diagram-class-title  diagram-class-resource"><a
+         id="n81"
+         xlink:href="StructureDefinition-ContactDetailsType.html">ContactDetailsType</a></text>
+  </g>
+  <g
+     id="n82">
+    <rect
+       filter="url(#shadowdatatypes)"
+       rx="4"
+       ry="4"
+       x="7.256202599999998"
+       width="134.64000000000001"
+       y="302.3376744"
+       style="fill:#ffffff;stroke:black;stroke-width:1"
+       id="PostalAddressType"
+       height="36.0" />
+    <line
+       y1="330.3376744"
+       x1="7.256202599999998"
+       y2="330.3376744"
+       x2="141.8962026"
+       style="stroke:dimgrey;stroke-width:1"
+       id="n83" />
+    <text
+       text-anchor="middle"
+       x="74.5762026"
+       y="322.3376744"
+       id="n84"
+       fill="black"
+       class="diagram-class-title  diagram-class-resource"><a
+         id="n85"
+         xlink:href="StructureDefinition-PostalAddressType.html">PostalAddressType</a></text>
+  </g>
+  <g
+     id="n86">
+    <rect
+       filter="url(#shadowdatatypes)"
+       rx="4"
+       ry="4"
+       x="163.38071349999998"
+       width="102.96000000000001"
+       y="301.5625764"
+       style="fill:#ffffff;stroke:black;stroke-width:1"
+       id="SignatureType"
+       height="36.0" />
+    <line
+       y1="329.5625764"
+       x1="163.38071349999998"
+       y2="329.5625764"
+       x2="266.3407135"
+       style="stroke:dimgrey;stroke-width:1"
+       id="n87" />
+    <text
+       text-anchor="middle"
+       x="214.86071349999997"
+       y="321.5625764"
+       id="n88"
+       fill="black"
+       class="diagram-class-title  diagram-class-resource"><a
+         id="n89"
+         xlink:href="StructureDefinition-SignatureType.html">SignatureType</a></text>
+  </g>
+</svg>

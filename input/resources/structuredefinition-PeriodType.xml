@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
+  <id value="PeriodType"/>
+  <url value="http://fhir.org/guides/fhir/base-clinical/StructureDefinition/PeriodType"/>
+  <name value="PeriodType"/>
+  <title value="PeriodType"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <publisher value="HL7 International / FHIR Infrastructure"/>
+  <contact>
+    <telecom>
+      <!-- Or whatever URL and/or email address(es) are appropriate -->
+      <system value="url"/>
+      <value value="http://hl7.org/Special/committees/fhir-i"/>
+    </telecom>
+  </contact>
+  <description value="PeriodType - An interval of time from start to finish"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>  
+  <fhirVersion value="5.0.0"/>
+  <kind value="complex-type"/>
+  <abstract value="false"/>
+  <type value="PeriodType"/>
+  <baseDefinition value="http://fhir.org/guides/fhir/base-clinical/StructureDefinition/DataValueType"/>
+  <derivation value="specialization"/>
+  <differential>
+   <element id="PeriodType">
+      <path value="PeriodType"/> 
+      <short value="PeriodType (An interval of time)"/> 
+      <definition value="PeriodType - An interval of time from start to finish"/> 
+      <min value="0"/> 
+      <max value="*"/> 
+    </element> 
+  </differential>
+</StructureDefinition>

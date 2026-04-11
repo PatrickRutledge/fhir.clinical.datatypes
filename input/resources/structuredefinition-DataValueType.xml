@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
+  <id value="DataValueType"/>
+  <url value="http://fhir.org/guides/fhir/base-clinical/StructureDefinition/DataValueType"/>
+  <name value="DataValueType"/>
+  <title value="DataValueType"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <publisher value="HL7 International / FHIR Infrastructure"/>
+  <contact>
+    <telecom>
+      <!-- Or whatever URL and/or email address(es) are appropriate -->
+      <system value="url"/>
+      <value value="http://hl7.org/Special/committees/fhir-i"/>
+    </telecom>
+  </contact>
+  <description value="Base Data type that is used to indicate that any data type is appropriate"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>  
+  <fhirVersion value="5.0.0"/>
+  <kind value="complex-type"/>
+  <abstract value="false"/>
+  <type value="DataValueType"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Base"/>
+  <derivation value="specialization"/>
+  <differential>
+   <element id="DataValueType">
+      <path value="DataValueType"/> 
+      <short value="DataValueType (Use any type)"/> 
+      <definition value="Base Data type that is used to indicate that any data type is appropriate"/> 
+      <min value="0"/> 
+      <max value="*"/> 
+    </element> 
+  </differential>
+</StructureDefinition>

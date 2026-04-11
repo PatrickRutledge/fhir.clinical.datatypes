@@ -1,0 +1,254 @@
+<div xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+  <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
+  <a name="intro"></a>
+  <h3>Introduction</h3>
+  <p>
+    This IG defines a set of types that are intended for use in clinical modeling, where they are used to describe 
+    the intent of an elemnet in a conceptual model. These data types do not define properties, or value domains, 
+    or other aspects of how they work; they are purely concerned with intent, and not directly useable. 
+  </p>
+  <p>
+    Instead of being used directly, these types are mapped to types in underlying implementation environments
+    where informatics and engineering decisions around value domains, performance, and technical interoperability
+    arise, and the use of these data types implies that these important decisions are delegated to subsequent 
+    processes.
+  </p>
+  <p>
+   Accordingly, then, structures that use these types are not intended to be directly implemented; instead, they
+   are used where such details complicate/clutter getting to consensus with non-technical users. Such structures 
+   are sometimes called Domain Analysis Models, or Clinical Requirements Statements, or other things.
+  </p>
+
+  <a name="summary"></a>
+  <h3>Datatypes Summary</h3>
+
+{% class-diagram {
+  "id" : "datatypes",
+  "attributes" : true,
+  "no-inner-classes" : true,
+  "classes" : ["DataValueType", "BooleanType", "NumberType", "StringType", "DateTimeType", "ConceptType", 
+     "CodeType", "AttachmentType", "UrlType", "IdentifierType", "PeriodType", "RangeType", "TextType", 
+     "QuantityType", "ReferenceType", "TimingRulesType", "DurationType", "OrdinalType",
+     "PersonNameType", "ContactDetailsType", "PostalAddressType", "SignatureType"]
+}
+%}
+
+<table class="grid">
+<tr>
+  <th>DataType</th>
+  <th>Description</th>
+  <th>FHIR</th>
+  <th>openEHR</th>
+  <th>CDA</th>
+  <th>V2</th>
+  
+</tr>
+
+<tr>
+  <td><a href="StructureDefinition-DataValueType.html" title="StructureDefinition/DataValueType">DataValueType</a></td>
+  <td>Base Data type that is used to indicate that any data type is appropriate</td>
+  <td>[[[DataType]]]</td>
+  <td>[[[DATA_VALUE]]]</td>
+  <td>[[[ANY']]]</td>
+  <td>n/a</td>
+</tr>
+
+<tr>
+  <td colspan="6" style="background-color: #eeeeee">Basic Types</td>
+</tr>
+<tr>
+  <td><a href="StructureDefinition-BooleanType.html" title="StructureDefinition/BooleanType">BooleanType</a></td>
+  <td>true &amp; false</td>
+  <td>[[[boolean]]]</td>
+  <td>[[[DV_BOOLEAN]]]</td>
+  <td>[[[BL]]]</td>
+  <td>ID?</td>
+</tr>
+<tr>
+  <td><a href="StructureDefinition-NumberType.html" title="StructureDefinition/NumberType">NumberType</a></td>
+  <td>All Numerical Values</td>
+  <td>[[[integer]]], [[[decimal]]], [[[unsignedInt]]], [[[positiveInt]]]</td>
+  <td>[[[DV_COUNT]]]</td>
+  <td>[[[INT]]], [[[REAL]]]</td>
+  <td>NM</td>
+</tr>
+<tr>
+  <td><a href="StructureDefinition-DateTimeType.html" title="StructureDefinition/DateTimeType">DateTimeType</a></td>
+  <td>Date(+Time) + Timezone</td>
+  <td>[[[date]]], [[[dateTime]]], [[[instant]]], [[[time]]]?</td>
+  <td>[[[DV_DATE]]], [[[DV_DATE_TIME]]], [[[DV_TIME]]]?</td>
+  <td>[[[TS]]]</td>
+  <td>DT, DTM, TM?</td>
+</tr>
+<tr>
+  <td><a href="StructureDefinition-UrlType.html" title="StructureDefinition/UrlType">UrlType</a></td>
+  <td>Plain Web Reference (URL, URI, IRI)</td>
+  <td>[[[uri]]], [[[url]]], [[[uuid]]], [[[oid]]]?</td>
+  <td>[[[DV_URI]]]</td>
+  <td>URI</td>
+  <td>n/a</td>
+</tr>
+<tr>
+  <td><a href="StructureDefinition-ReferenceType.html" title="StructureDefinition/ReferenceType">ReferenceType</a></td>
+  <td>Points to independently managed data of some kind</td>
+  <td>[[[Reference]]]</td>
+  <td>[[[DV_EHR_URI]]]</td>
+  <td>n/a</td>
+  <td>HD?</td>
+</tr>
+<tr>
+  <td><a href="StructureDefinition-StringType.html" title="StructureDefinition/StringType">StringType</a></td>
+  <td>Simple Text, no paragraphs or formatting</td>
+  <td>[[[string]]]</td>
+  <td>[[[DV_TEXT]]]??</td>
+  <td>[[[ST]]]</td>
+  <td>ST</td>
+</tr>
+<tr>
+  <td><a href="StructureDefinition-TextType.html" title="StructureDefinition/TextType">TextType</a></td>
+  <td>Text with paragraphs and formatting</td>
+  <td>[[[markdown]]], [[[xhtml]]]</td>
+  <td>[[[DV_TEXT]]]?, [[[DV_PARAGRAPH]]]</td>
+  <td>[[[ED]]]?</td>
+  <td>TX?</td>
+</tr>
+<tr>
+ <td><a href="StructureDefinition-AttachmentType.html" title="StructureDefinition/AttachmentType">AttachmentType</a></td>
+ <td>File or reference to a file, with metadata</td>
+ <td>[[[Attachment]]]</td>
+  <td>[[[DV_MULTIMEDIA]]]</td>
+  <td>[[[ED]]]</td>
+  <td>ED</td>
+</tr>
+<tr>
+  <td><a href="StructureDefinition-CodeType.html" title="StructureDefinition/CodeType">CodeType</a></td>
+  <td>Simple Code from a defined set of codes</td>
+  <td>[[[code]]], [[[Coding]]]</td>
+  <td>[[[DV_CODED_TEXT]]]?, [[[DV_PARSABLE]]]?</td>
+  <td>[[[CS]]], [[[CV]]]</td>
+  <td>ID, IS</td>
+</tr>
+
+<tr>
+  <td><a href="StructureDefinition-ConceptType.html" title="StructureDefinition/ConceptType">ConceptType</a></td>
+  <td>Complex Codes and/or Text, from one or more valueSets</td>
+  <td>[[[CodeableConcept]]]</td>
+  <td>[[[DV_CODED_TEXT]]]</td>
+  <td>[[[CD]]], [[[CE]]]</td>
+  <td>CWE</td>
+</tr>
+
+<tr>
+  <td><a href="StructureDefinition-IdentifierType.html" title="StructureDefinition/IdentifierType">IdentifierType</a></td>
+  <td>An assigned value that identifies someone/something</td>
+  <td>[[[Identifier]]]</td>
+  <td>[[[DV_IDENTIFIER]]]</td>
+  <td>[[[II]]]</td>
+  <td>CX, EI, XCN?</td>
+</tr>
+<tr>
+  <td colspan="6" style="background-color: #eeeeee">Quantity Related</td>
+</tr>
+
+<tr>
+  <td><a href="StructureDefinition-QuantityType.html" title="StructureDefinition/QuantityType">QuantityType</a></td>
+  <td>Measured/Measurable - Number with Units</td>
+  <td>[[[Quantity]]]</td>
+  <td>[[[DV_QUANTITY]]]</td>
+  <td>[[[PQ]]]</td>
+  <td>SN</td>
+</tr>
+<tr>
+  <td><a href="StructureDefinition-DurationType.html" title="StructureDefinition/DurationType">DurationType</a></td>
+  <td>A length of time, not fixed to a start or end</td>
+  <td>[[[Duration]]]</td>
+  <td>[[[DV_DURATION]]]</td>
+  <td>[[[QTY]]]</td>
+  <td>SN?</td>
+</tr>
+<tr>
+  <td><a href="StructureDefinition-OrdinalType.html" title="StructureDefinition/OrdinalType">OrdinalType</a></td>
+  <td>An ordered set of codes</td>
+  <td>[[[Coding]]]?</td>
+  <td>[[[DV_ORDINAL]]]</td>
+  <td>[[[CO]]]</td>
+  <td>n/a</td>
+</tr>
+<tr>
+  <td><a href="StructureDefinition-RangeType.html" title="StructureDefinition/RangeType">RangeType</a></td>
+  <td>Quantity from low to high</td>
+  <td>[[[Range]]]</td>
+  <td>[[[DV_INTERVAL]]]&lt;[[[DV_QUANTITY]]]&gt;</td>
+  <td>[[[IVL_PQ]]]</td>
+  <td>SN</td>
+</tr>
+<tr>
+  <td><a href="StructureDefinition-PeriodType.html" title="StructureDefinition/PeriodType">PeriodType</a></td>
+  <td>An interval of time from start to finish</td>
+  <td>[[[Period]]]</td>
+  <td>[[[DV_INTERVAL]]]&lt;[[[DV_DATE_TIME]]]&gt;</td>
+  <td>[[[IVL_TS]]]</td>
+  <td>DR</td>
+</tr>
+
+<tr>
+  <td colspan="6" style="background-color: #eeeeee">Special Case</td>
+</tr>
+<tr>
+  <td><a href="StructureDefinition-TimingRulesType.html" title="StructureDefinition/TimingRulesType">TimingRulesType</a></td>
+  <td>Complex Rules about when something should be done</td>
+  <td>[[[Timing]]]</td>
+  <td>[[[DV_GENERAL_TIME_SPECIFICATION]]]</td>
+  <td>GTS</td>
+  <td>GTS</td>
+</tr>
+<tr>
+  <td><a href="StructureDefinition-PersonNameType.html" title="StructureDefinition/PersonNameType">PersonNameType</a></td>
+  <td>A Person's name, with parts</td>
+  <td>[[[HumanName]]]</td>
+  <td>n/a</td>
+  <td>[[[EN]]]</td>
+  <td>XPN</td>
+</tr>
+<tr>
+  <td><a href="StructureDefinition-PostalAddressType.html" title="StructureDefinition/PostalAddressType">PostalAddressType</a></td>
+  <td>A postal Address</td>
+  <td>[[[Address]]]</td>
+  <td>n/a</td>
+  <td>[[[AD]]]</td>
+  <td>XAD</td>
+</tr>
+
+<tr>
+  <td><a href="StructureDefinition-ContactDetailsType.html" title="StructureDefinition/ContactDetailsType">ContactDetailsType</a></td>
+  <td>How to contact a person or organization</td>
+  <td>[[[ContactPoint]]]</td>
+  <td>n/a</td>
+  <td>[[[TEL]]]</td>
+  <td>XTN</td>
+</tr>
+<tr>
+  <td><a href="StructureDefinition-SignatureType.html" title="StructureDefinition/SignatureType">SignatureType</a></td>
+  <td>Supports media and digital signatures</td>
+  <td>[[[Signature]]]</td>
+  <td>n/a</td>
+  <td>n/a</td>
+  <td>n/a</td>
+</tr>
+
+</table>
+
+  <a name="using"></a>
+  <h3>Using these Datatypes</h3>
+<p>
+ To use these data types in another FHIR implementation guide:
+ </p>
+ <ul>
+  <li>Add a dependency to this IG</li>
+  <li>Create structures where the kind is 'logical'</li>
+  <li>Set the type of the elements to the URL of the data type e.g. <code>http://fhir.org/guides/fhir/base-clinical/StructureDefinition/BooleanType</code></li>
+ </ul>
+
+
+</div>
