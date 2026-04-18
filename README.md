@@ -1,7 +1,7 @@
 # FHIR Clinical DataTypes IG
 
  This IG defines a set of types that are intended for use in clinical modeling, where they are used to describe 
-the intent of an elemnet in a conceptual model. These data types do not define properties, or value domains, 
+the intent of an element in a conceptual model. These data types do not define properties, or value domains, 
 or other aspects of how they work; they are purely concerned with intent, and not directly useable. 
 
 ## FHIR Foundation Project Statement
